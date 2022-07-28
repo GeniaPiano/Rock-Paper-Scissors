@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Rock Paper Scissors </title>
+        <script src="https://kit.fontawesome.com/ddc58954c7.js" crossorigin="anonymous"></script>
+        <link href="style.css" rel="stylesheet"/>
+        
+    </head>
+    <body>
+
+<main class="page">
+
+<section class="pages__header wrapper">
+<h1><strong>Rock Paper Scissors</strong></h1>
+</section>  
+
+<section class="page__moves">
+<h3 class="page__moves-tittle wrapper">Choose your move</h3>
+
+<div class="page__moves-icons wrapper">
+    <button class="icon" id="rock"><i class="fa-solid fa-hand-rock"></i></button>
+    <button class="icon" id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+    <button class="icon" id="paper"><i class="fa-solid fa-hand-paper"></i></button>
+</div>
+</section>
+
+<section class="page__results">
+   <div class="page__results-description wrapper">
+    <h3>You</h3>
+    <h3>Computer</h3>
+   </div>
+     <div class="page__results-icons wrapper"  >
+        <span class="icon icon-results" id="players-move">?</span>  
+        <span class="icon icon-results" id="computers-move">?</span>
+    </div>
+
+    <div class="page__results-subtitles">
+       <h3 id="result"></h3>
+       <p><button class="page__results-restart" id="play-again">Play again</button></p>
+    </div>    
+
+</section>
+
+   <script src="./functions.js"> </script>
+   <script src="./myscripts.js"></script>
+</main>
+</body>
+</html>

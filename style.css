@@ -1,0 +1,68 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+       font-family: 'Montserrat', sans-serif;
+       background-color: rgb(228, 228, 78);
+}
+
+button { 
+border: 0;
+background-color: inherit;
+}
+
+/*ADDITIONAL CLASSES*/
+
+.icon {
+    width: 110px;
+    height: 110px;
+    font-size: 40px;
+    border: 5px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon-results {
+    border-color: rgb(2, 130, 168);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page {
+    width: 50%;
+    margin: 30px auto;
+}
+
+.page__results {
+    margin-top: 30px;
+}
+.page__moves-title,
+.page__header {
+    text-align: center;
+}
+.page__results-subtitles {
+    text-align: center;
+}
+.page__results-restart {
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.page__results-description{
+    text-align: center;
+    width: 100%;
+   
+}
+
+.pages__header {
+    font-size: 20x;
+}
